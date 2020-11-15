@@ -1,0 +1,1 @@
+Here are the sources for v1.0 of the PCB, this is for reference only as this version has one "bug" that needs a wire fix. On the schematic the line /A15 connected to JP3 and U1D should have been marked as A15 (without the /). As a result the Z80 CPU line A15 is not not connected to the address decoder. One wire is needed to fix it.
