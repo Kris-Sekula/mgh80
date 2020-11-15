@@ -1,2 +1,20 @@
 # mgh80
-Simple 5 chip Z80 singe-board computer, work in progress. For now just the schematic and picture on bradboard. Works well with my EPROM emulator. I'll add more as we go.
+The 5 chip Z80 single-board "computer", is a very simple Z80 based "controller" with 8255 for I/O. 
+
+It features an option to use a local crystal-based oscillator or oscillator module. There is an onboard selector to choose between 27c256 EPROM and 28C256 EEPROM.
+
+Onboard address decoder:
+* ROM at 0000h - 7FFFh
+* RAM at 8000h - FFFFh
+* IO at E0h (IOPortA)
+* IO at E1h (IOPortB)
+* IO at E2h (IOPortC)
+* IO at E2h (Control)
+
+A few solder jumpers allow disconnecting various onboard options (if you for example want to provide an external address decoder)... In the basic configuration you should link (with a solder blob) the following:
+JP1 - enable internal CLK source
+JP2 - enable internal ROM address decoder
+JP3 - enable internal RAM address decoder
+JP4 - enable internal IO(8255) address decoder
+
+Simple "blinky" program source (.asm) included and a compiled binary (.bin) for 27C256 EPROM (or my EPROM emulator)
