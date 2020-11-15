@@ -19,4 +19,4 @@ A few solder jumpers allow disconnecting various onboard options (if you for ex
 * JP3 - enable internal RAM address decoder
 * JP4 - enable internal IO(8255) address decoder
 
-Simple "blinky" program source (.asm) included and a compiled binary (.bin) for 27C256 EPROM (or my EPROM emulator). It will toggle all lines of port B few times a second.
+Simple "blinky" program source (.asm) included and a compiled hex files (.hex) for 27C256 EPROM (or my EPROM emulator). It will toggle all lines of port B few times a second.
