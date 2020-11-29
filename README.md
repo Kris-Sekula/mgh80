@@ -1,4 +1,4 @@
-# mgh80
+# mgh80 - "The Arduino of the 80s"
 The 5 chip Z80 single-board "computer", is a very simple Z80 based "controller" with 8255 for I/O plus a "Z50Bus" expansion connector.
 
 ![picture of v1.0](https://github.com/Kris-Sekula/mgh80/blob/main/MGH80_v1.0_front.jpg)
