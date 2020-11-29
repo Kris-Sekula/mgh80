@@ -23,7 +23,9 @@ A few solder jumpers allow disconnecting various onboard options (if you for ex
 Simple "blinky" program source (.asm) included and a compiled hex files (.hex) for 27C256 EPROM (or my EPROM emulator). It will toggle all lines of port B a few times a second.
 
 Get your PCBs from [PCBWAY](https://www.pcbway.com/project/shareproject/mgh80___the_Arduino_of_the_80s__simple_z80_based__microcontroller____sbc_.html)
+
 A few prototypes of HW1.0 are listed on [eBay](https://www.ebay.com/sch/avr4sale/m.html?_nkw=&_armrs=1&_ipg=&_from=)
+
 If you found this helpful and you like the work I do, why not buy me a coffee, thanks ! :)
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R6R52KGCD)
