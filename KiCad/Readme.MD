@@ -1,1 +1,1 @@
-KiCad files to produce the PCB, 1.0 had a small bug (details in the v1.0 folder). v1.1 sources here have not been verifed but they only include fixes to v1.0 so should be good to to... I'll be adding somee to my next order and update notes here once confimed all good.
+KiCad files to produce the PCB, 1.0 had a small bug (details in the v1.0 folder). v1.2 sources here have not been verifed but they only include fixes to v1.0 and 1.1 so should be good to to... I'll be adding somee to my next order and update notes here once confimed all good.
