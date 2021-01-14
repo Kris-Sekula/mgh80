@@ -1,1 +1,15 @@
-KiCad files to produce the PCB, 1.0 had a small bug (details in the v1.0 folder). v1.1-v1.3 sources here have not been verifed but they only include fixes to v1.0-1.2 so should be good to to... I'll be adding somee to my next order and update notes here once confimed all good.
+KiCad files to produce the PCB.
+
+Update
+
+Dec-10-2021: Got the v1.3 HW boards from PCBWay, works well so I consider the design ready to go.
+
+Version revisions:
+
+1.3. Larger holes in the experiments area.
+
+1.2. Fixed issue with EEPROM/EPROM selector.
+
+1.1. Fixed A15 not connected issue.
+
+1.0. First release.
