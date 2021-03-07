@@ -19,6 +19,7 @@ A few solder jumpers allow disconnecting various onboard options (if you for ex
 * JP2 - enable internal ROM address decoder
 * JP3 - enable internal RAM address decoder
 * JP4 - enable internal IO(8255) address decoder
+* JP7 - set 8255 reset pin to GND (bypass R5)
 
 Simple "blinky" program source (.asm) included and a compiled hex files (.hex) for 27C256 EPROM (or my EPROM emulator). It will toggle all lines of port B a few times a second.
 
