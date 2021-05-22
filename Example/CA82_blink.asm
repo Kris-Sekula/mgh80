@@ -24,13 +24,13 @@ START:
 	ld A,080h 			; configure, all ports Output
 	out (PIO_M),A		;
 	
-INIT:	ld A,00h		; load 00 to port B register (LED OFF)
-	out (PIO_B),A
+INIT:	ld A,00h		; load 00 to port A register (LED OFF)
+	out (PIO_A),A
 
 	call pause			; delay
 				
-	ld A,0ffh			; load 0FFh to port B register (LED ON)
-	out (PIO_B),A
+	ld A,0ffh			; load 0FFh to port A register (LED ON)
+	out (PIO_A),A
 	
 	call pause			; delay
 	
