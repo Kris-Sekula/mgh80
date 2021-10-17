@@ -1,8 +1,12 @@
+![picture of serial expansion](https://github.com/Kris-Sekula/mgh80/blob/main/Serial_ExpansionBoard/Pictures/gh_serial_hw1_5.jpg)
+
 This is a serial expansion board using popular Motorola MC68B50. 
 
 MGH80 + Expansion board is will run BASIC or "Monitor" style program. 
 
 I use SCMonitor-v100-R3-RC2014-32k-ROM from RC2014 project written by Stephen C Cousins in the United Kingdom.
+
+![picture of serial expansion](https://github.com/Kris-Sekula/mgh80/blob/main/Serial_ExpansionBoard/Pictures/TERMINAL.PNG)
 
 You can download the monitor from his website.
 
