@@ -2,7 +2,7 @@
 
 This is a serial expansion board using popular Motorola MC68B50. 
 
-MGH80 + Expansion board is will run BASIC or "Monitor" style program. 
+MGH80 + Expansion board will run BASIC or "Monitor" style program. 
 
 I use SCMonitor-v100-R3-RC2014-32k-ROM from RC2014 project written by Stephen C Cousins in the United Kingdom.
 
