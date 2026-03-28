@@ -68,5 +68,6 @@ Pasting this into TeraTerm window will "upload" into mgh80 (note there is no ech
 
 ![upload example 2](https://github.com/Kris-Sekula/mgh80/blob/main/Monitor/upload_utility/TeraTerm.jpeg)
 
- 
+The last "g" command, starts execution.
+
 This is originally based on work described here: https://sites.google.com/site/ericmklaus/projects-1/z80minisystem
