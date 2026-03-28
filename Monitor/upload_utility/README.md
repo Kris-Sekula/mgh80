@@ -20,7 +20,7 @@ Example:  mgh80load.exe MGH80_blink.hex 3 Y
 this will upload the file MGH80_blink.hex to the board using COM3 and start the program after upload
 
 
-## Python script (linux or macOS):
+### Python script (linux or macOS):
 
 Microsoft keeps making self compiled program execution more and more difficuilt. If you're having issues staring mgh80load.exe on your computer (or you want to run it on Linux machine)
 Install python and run the python script, parameters are the same, here is an example:
