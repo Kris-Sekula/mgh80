@@ -8,14 +8,16 @@ This is a command line program (so simply clicking on it won't do much)
 
 ### Windows executable:
 
-From a command window prompt enter:  mgh80load.exe {filename} {port#} {Y}
+From a command window prompt enter:  `mgh80load.exe {filename} {port#} {Y}`
 
 Where: 
-{filename.hex} is the name of an intel hex file and 
+{filename.hex} is the name of an intel hex file
+
 {port#} is the serial port number (number only, so put **3** instead of **COM3**) 
+
 {Y} this is optional parameter that will make the board automatically start executing code form address 0x8100h
 
-Example:  mgh80load.exe MGH80_blink.hex 3 Y
+Example:  `mgh80load.exe MGH80_blink.hex 3 Y`
 
 this will upload the file MGH80_blink.hex to the board using COM3 and start the program after upload
 
