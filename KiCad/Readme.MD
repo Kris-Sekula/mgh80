@@ -1,6 +1,8 @@
 KiCad files to produce the PCB.
 
-Please note, the address decoder on MGH80 is very simple, as a result not all 8255 will work, (plain 8255A without any dashes in the part name seems to work best) here is a list of known working:
+Get your PCBs from [PCBWAY](https://www.pcbway.com/project/shareproject/mgh80___the_Arduino_of_the_80s__simple_z80_based__microcontroller____sbc_.html)
+
+**Please note:** The address decoder on MGH80 is very simple, as a result not all 8255 will work, (plain 8255A without any dashes in the part name seems to work best) here is a list of known working:
 
 * KS82C55A-8CP
 * CP82C55A
