@@ -1,0 +1,67 @@
+0000          	PIO_A	EQU	00h		; CA80 user 8255 base address 	  (port A)
+0001          	PIO_B	EQU	01h		; CA80 user 8255 base address + 1 (port B)
+0002          	PIO_C	EQU	02h		; CA80 user 8255 base address + 2 (port C)
+0003          	PIO_M	EQU	03h		; CA80 user 8255 control register
+		
+8100          		ORG 8100H
+8100  00      		NOP
+8101  00      		NOP
+		
+8102          	START:
+			; main program
+		
+8102  310091  		ld sp,09100h		; set stack
+		
+		
+8105  3E80    		ld A,080h 			; configure, all ports Output
+8107  D303    		out (PIO_M),A		;
+			
+8109  3E00    	INIT:	ld A,00h		; load 00 to port A register (LED OFF)
+810B  D300    		out (PIO_A),A
+		
+810D  CD1A81  		call pause			; delay
+						
+8110  3EFF    		ld A,0ffh			; load 0FFh to port A register (LED ON)
+8112  D300    		out (PIO_A),A
+			
+8114  CD1A81  		call pause			; delay
+			
+8117  C30981  		jp INIT				; repeat
+		
+811A          	pause:
+811A  010100  		LD BC, 01h            ; delay multiplier
+811D          	Outer:
+811D  110030  		LD DE, 3000h            ;Loads DE with hex 1000
+8120          	Inner:
+8120  1B      		DEC DE                  	;Decrements DE
+8121  7A      		LD A, D                 	;Copies D into A
+8122  B3      		OR E                    	;Bitwise OR of E with A (now, A = D | E)
+8123  C22081  		JP NZ, Inner            	;Jumps back to Inner: label if A is not zero
+8126  0B      		DEC BC                  	;Decrements BC
+8127  78      		LD A, B                 	;Copies B into A
+8128  B1      		OR C                    	;Bitwise OR of C with A (now, A = B | C)
+8129  C21D81  		JP NZ, Outer            	;Jumps back to Outer: label if A is not zero
+812C  C9      		RET                     	;Return from call to this subroutine	
+
+
+
+Statistics:
+
+     4	passes
+     0	jr promotions
+     9	symbols
+    45	bytes
+
+
+
+Symbol Table:
+
+INIT            8109      33033
+Inner           8120      33056
+Outer           811D      33053
+PIO_A          =00        0
+PIO_B          =01        1
+PIO_C          =02        2
+PIO_M          =03        3
+START           8102      33026
+pause           811A      33050
