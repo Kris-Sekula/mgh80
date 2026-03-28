@@ -1,10 +1,13 @@
 KiCad files to produce the PCB.
 
-Update
+Please note, the address decoder on MGH80 is very simple, as a result not all 8255 will work, (plain 8255A without any dashes in the part name seems to work best) here is a list of known working:
 
-Dec-10-2021: Got the v1.3 HW boards from PCBWay, works well so I consider the design ready to go.
+* KS82C55A-8CP
+* CP82C55A
 
 Version revisions:
+
+1.7. Added P6 connector for USB-to-TTL bit banged port (see [Monitor](https://github.com/Kris-Sekula/mgh80/tree/main/Monitor#readme) folder)
 
 1.3. Larger holes in the experiments area.
 

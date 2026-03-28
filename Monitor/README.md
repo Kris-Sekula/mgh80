@@ -7,6 +7,8 @@ This is a simple machine code monitor with bit-banged serial port. You can use i
 RX | PC3
 TX | PC4
 
+** The code is optimised for 4MHz clock frequency **
+
 Example:
 
 ![connect pcb 1.5](https://github.com/Kris-Sekula/mgh80/blob/main/Monitor/Connect_1.5.jpeg)
