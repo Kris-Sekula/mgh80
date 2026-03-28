@@ -6,6 +6,8 @@ This 5 chip Z80 single-board "computer", is a very simple Z80 based "controller"
 
 Features an option to use a local crystal-based oscillator or oscillator module. There is an onboard selector to choose between 27c256 EPROM and 28C256 EEPROM.
 
+You can find more detailed project description on my website [mygeekyhobby.com](https://mygeekyhobby.com/2026/03/07/mgh-80-the-arduino-of-the-80s/)
+
 Onboard address decoder:
 * ROM at 0000h - 7FFFh
 * RAM at 8000h - FFFFh
