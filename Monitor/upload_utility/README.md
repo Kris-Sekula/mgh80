@@ -70,4 +70,6 @@ Pasting this into TeraTerm window will "upload" into mgh80 (note there is no ech
 
 The last "g" command, starts execution.
 
+Source for the windows utility is included.
+
 This is originally based on work described here: https://sites.google.com/site/ericmklaus/projects-1/z80minisystem
