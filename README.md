@@ -26,11 +26,12 @@ A few solder jumpers allow disconnecting various onboard options (if you for ex
 * JP9 - enable onboard IO_WR singal
 
 Simple "blinky" program source (.asm) included and a compiled hex files (.hex) for 27C256 EPROM (or my EPROM emulator). It will toggle all lines of port A a few times a second.
+In the "Monitor" folder, you will find sources for a monitor ROM — the bare-metal firmware that boots up, gives you a command prompt, and lets you inspect/modify memory, set breakpoints, and run programs.
 
 Get your PCBs from [PCBWAY](https://www.pcbway.com/project/shareproject/mgh80___the_Arduino_of_the_80s__simple_z80_based__microcontroller____sbc_.html)
 
 A few component kits are listed on [eBay](https://www.ebay.com/sch/avr4sale/m.html?_nkw=&_armrs=1&_ipg=&_from=)
 
-If you found this helpful and you like the work I do, why not buy me a coffee, thanks ! :)
+If you found this helpful and you like the work I do, why not buy me a coffee? Thanks! :)
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R6R52KGCD)
